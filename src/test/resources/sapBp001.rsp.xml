@@ -1,0 +1,38 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header>
+        <MessageHeader xmlns="http://nn.nl/XSD/Generic/MessageHeader/2">
+            <From>
+                <Id>Ibis4SapBP</Id>
+            </From>
+            <To>
+                <Location>ESB.CustomerAdministration.BS.Party.2.HandleBusinessPartner.4.Response</Location>
+            </To>
+            <HeaderFields>
+                <CPAId>98f313760cc148c8a9bff69b973c6d93</CPAId>
+                <ConversationId>srtzzapp0113.insim.biz_0ace08b7-4192c972_161322fb38f_-30e5</ConversationId>
+                <MessageId>srtzzapp0104.insim.biz_0ace0857--79622478_1616a5e6bed_-6bdf</MessageId>
+                <CorrelationId>6972bf1422744b95bbd83161f65cd9b8</CorrelationId>
+                <Timestamp>2018-02-06T17:21:05</Timestamp>
+            </HeaderFields>
+            <Service>
+                <Name>Party</Name>
+                <Context/>
+                <Action>
+                    <Paradigm>Response</Paradigm>
+                    <Name>HandleBusinessPartner</Name>
+                    <Version>4</Version>
+                </Action>
+            </Service>
+        </MessageHeader>
+    </soapenv:Header>
+    <soapenv:Body>
+        <HandleBusinessPartner_Response xmlns="http://nn.nl/XSD/CustomerAdministration/Party/2/HandleBusinessPartner/4">
+            <Party>
+                <Id>0503134706</Id>
+            </Party>
+            <Result xmlns="http://nn.nl/XSD/Generic/MessageHeader/2">
+                <Status>OK</Status>
+            </Result>
+        </HandleBusinessPartner_Response>
+    </soapenv:Body>
+</soapenv:Envelope>
