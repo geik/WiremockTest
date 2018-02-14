@@ -19,6 +19,7 @@ public class MyHttpClient {
     public static String getResponseFromWebService() throws IOException {
         //
         String hostname = "sapbp.dcdc.nl";
+
         int port = 8080;
         String scheme = "http";
 
