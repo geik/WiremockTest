@@ -2,7 +2,6 @@ package WiremockTest;
 
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.apache.commons.io.FileUtils;
-import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 
@@ -13,10 +12,10 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 
 public class MyHttpClientTest {
 
-    @Before
-    public init() {
-        // to do
-    }
+//    @Before
+//    public init() {
+//        // to do
+//    }
 
     @Rule
     public WireMockRule wireMockRule = new WireMockRule();
